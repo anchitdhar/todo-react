@@ -1,9 +1,15 @@
 import React from "react"
 import Checkbox from "./components/Checkbox.js"
+import "./style.css"
 
 function App() {
   return (
-    <Checkbox />
+    <div className="items">
+      <Checkbox />
+      <Checkbox />
+      <Checkbox />
+      <Checkbox />
+    </div>
   )
  
 }
