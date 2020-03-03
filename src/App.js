@@ -11,10 +11,10 @@ class App extends React.Component {
     }
   }
   render() {
-    const TodoItem =this.state.todos.map(item => <TodoItem key={item.id} item={item}/>)
+    const TodoItm=this.state.todos.map(item => <TodoItem key={item.id} item={item}/>)
     return (
       <div className="items">
-        {TodoItem}
+         { TodoItm }
       </div>
     )
   }
